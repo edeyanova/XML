@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema  targetNamespace="http://peter.com"
+    elementFormDefault="qualified"
+    xmlns="http://peter.com"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="ApplicationForm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="1" minOccurs="1" ref="Applicants"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Applicants">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="applicant"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="applicant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="PositionAppliedFor"></xs:element>
+        <xs:element minOccurs="1" maxOccurs="1" ref="PersonalDetails"></xs:element>
+        <xs:element minOccurs="1" maxOccurs="1" ref="Education"></xs:element>
+        <xs:element minOccurs="1" maxOccurs="1" ref="PersonalSkills"></xs:element>
+        <xs:element minOccurs="1" maxOccurs="1" ref="EmploymentHistory"></xs:element>
+        <xs:element minOccurs="1" maxOccurs="1" ref="ActivitiesAndInterests"></xs:element>
+        <xs:element minOccurs="1" maxOccurs="1" ref="ReasonsForApplying"></xs:element>
+      </xs:sequence>
+      <xs:attribute name="number" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{4}"></xs:pattern>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PositionAppliedFor">
+    <xs:complexType>
+      <xs:attribute name="position" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-zА-Яа-я]+"></xs:pattern>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="PersonalDetails">
+    <xs:complexType>
+      <xs:attribute name="FirstName" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[A-ZА-Я][a-zа-я]+"></xs:pattern>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="Surname" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[A-ZА-Я][a-zа-я]+"></xs:pattern>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="DateOfBirth" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="Email" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-z0-9]+@[a-z]+.[a-z]+"></xs:pattern>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="TelephoneNumber" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="(08)[0-9]{8}"></xs:pattern>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Education">
+    <xs:complexType>
+      <xs:attribute name="UniversityDegree" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-zА-Яа-я]+"></xs:pattern>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="PersonalSkills">
+    <xs:complexType>
+      <xs:attribute name="skills" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-zА-Яа-я]+"></xs:pattern>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="EmploymentHistory">
+    <xs:complexType>
+      <xs:attribute name="history" use="required">
+
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ActivitiesAndInterests">
+    <xs:complexType>
+      <xs:attribute name="activities" use="required">
+
+      </xs:attribute>
+      <xs:attribute name="interests" use="required">
+
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="ReasonsForApplying">
+    <xs:complexType>
+      <xs:attribute name="reasons" use="required">
+
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

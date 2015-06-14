@@ -1,0 +1,17 @@
+D:\61588\Трети курс\Зимен семестър\XML\Проект\BlancApplying\BlancApplying\bin\Debug\BlancApplying.exe.config
+D:\61588\Трети курс\Зимен семестър\XML\Проект\BlancApplying\BlancApplying\bin\Debug\BlancApplying.exe
+D:\61588\Трети курс\Зимен семестър\XML\Проект\BlancApplying\BlancApplying\bin\Debug\BlancApplying.pdb
+D:\61588\Трети курс\Зимен семестър\XML\Проект\BlancApplying\BlancApplying\obj\Debug\BlancApplying.exe
+D:\61588\Трети курс\Зимен семестър\XML\Проект\BlancApplying\BlancApplying\obj\Debug\BlancApplying.pdb
+C:\Users\Elina\Desktop\BlancApplying\BlancApplying\BlancApplying\bin\Debug\BlancApplying.exe.config
+C:\Users\Elina\Desktop\BlancApplying\BlancApplying\BlancApplying\obj\Debug\BlancApplying.exe
+C:\Users\Elina\Desktop\BlancApplying\BlancApplying\BlancApplying\obj\Debug\BlancApplying.pdb
+C:\Users\Elina\Desktop\EXAMS\PROJECT_XML\BlancApplying\BlancApplying\BlancApplying\bin\Debug\BlancApplying.exe.config
+C:\Users\Elina\Desktop\EXAMS\PROJECT_XML\BlancApplying\BlancApplying\BlancApplying\obj\Debug\BlancApplying.exe
+C:\Users\Elina\Desktop\EXAMS\PROJECT_XML\BlancApplying\BlancApplying\BlancApplying\obj\Debug\BlancApplying.pdb
+C:\Users\Elina\Desktop\project_data_fn61645\BlancApplying\BlancApplying\bin\Debug\BlancApplying.exe.config
+C:\Users\Elina\Desktop\project_data_fn61645\BlancApplying\BlancApplying\obj\Debug\BlancApplying.exe
+C:\Users\Elina\Desktop\project_data_fn61645\BlancApplying\BlancApplying\obj\Debug\BlancApplying.pdb
+C:\Users\Elina\Desktop\xmlTech2014_SI_fn61645_project\project_data_fn61645\BlancApplying\BlancApplying\bin\Debug\BlancApplying.exe.config
+C:\Users\Elina\Desktop\xmlTech2014_SI_fn61645_project\project_data_fn61645\BlancApplying\BlancApplying\obj\Debug\BlancApplying.exe
+C:\Users\Elina\Desktop\xmlTech2014_SI_fn61645_project\project_data_fn61645\BlancApplying\BlancApplying\obj\Debug\BlancApplying.pdb

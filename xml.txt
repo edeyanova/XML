@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationForm>
+  <Applicants>
+    <applicant number ="1234">
+      <PositionAppliedFor position="programmer"/>
+      <PersonalDetails FirstName="Ivan" Surname="Ivanov" DateOfBirth="12.04.1990" Email="ivan@abv.bg" TelephoneNumber="0891234567"/>
+      <Education UniversityDegree="master"/>
+      <PersonalSkills skills="programming"/>
+      <EmploymentHistory history="no work experiance"/>
+      <ActivitiesAndInterests activities="studying" interests="algorithms"/>
+      <ReasonsForApplying reasons="interested in this posititon"/>
+    </applicant>         
+  </Applicants>
+</ApplicationForm>
